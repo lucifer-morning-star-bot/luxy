@@ -105,13 +105,14 @@ body.dark-mode {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #111;
+    background-color: gold;
     padding: 20px;
     display: none;
     min-width: 250px;
     flex-direction: column;
-    border-radius: 8px;
+    border-radius: 8px ;
     animation: fadeIn 0.5s ease forwards;
+    z-index: 999;
 }
 
 .mega-menu ul li:hover .dropdown,
@@ -120,7 +121,8 @@ body.dark-mode {
 }
 
 .mega-menu ul li .dropdown a {
-    color: #fdf6e3;
+    color: black;
+    font-weight: bolder;
     padding: 5px 0;
 }
 
